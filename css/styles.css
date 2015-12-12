@@ -1,0 +1,13 @@
+#landing {
+  background-color: #FCDB00;
+  text-align: center; }
+  #landing div.initial {
+    padding-top: 3em; }
+  #landing i.globe {
+    font-size: 2.5em; }
+  #landing i.social-network {
+    margin-right: 0.6em; }
+  #landing span {
+    font-weight: bold; }
+
+/*# sourceMappingURL=styles.css.map */
