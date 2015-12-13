@@ -107,12 +107,35 @@ p.description {
 
 #work .works {
   padding-left: 4em; }
-#work h5 {
-  font-weight: bold;
-  text-align: center; }
-#work .work-desc p {
-  text-align: center;
-  font-size: 0.9em;
-  margin-top: -1em; }
+  #work .works .second {
+    margin-top: 2em; }
+  #work .works h5 {
+    font-weight: bold;
+    text-align: center; }
+  #work .works .work-desc p {
+    text-align: center;
+    font-size: 0.9em;
+    margin-top: -1em; }
+
+#team {
+  padding: 2em 5em 0 5em; }
+  #team .teams {
+    text-align: center; }
+  #team img {
+    border-radius: 50%;
+    padding: -1.5em -1.5em; }
+  #team h5 {
+    margin-top: 2em;
+    font-weight: bolder;
+    text-align: center; }
+  #team .image p.designation {
+    text-align: center;
+    font-size: 0.9em;
+    margin-top: -1em; }
+  #team .image p.desc {
+    text-align: center;
+    font-size: 0.9em;
+    font-weight: 600;
+    margin-top: 1.5em; }
 
 /*# sourceMappingURL=styles.css.map */
