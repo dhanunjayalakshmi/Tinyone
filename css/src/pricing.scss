@@ -1,4 +1,7 @@
 #pricing {
+  .price {
+    padding-left: 5em;
+  }
   .price-icon {
     text-align: center;
     font-size: 2em;
@@ -8,22 +11,22 @@
     &.price-tablet {
       padding: 0.5em 0.7em;
       background:rgba(0,0,0,0.2);
-      color:#000;
+      color:$primary-color;
     }
     &.price-laptop {
       background:rgba(0,0,0,1);
-      color:#fff;
+      color:$secondary-color;
     }
     &.price-desktop {
       background:rgba(0,0,0,0.2);
-      color:#000;
+      color:$primary-color;
     }
   }
   h5 {
     text-align: center;
     font-weight: bolder;
   }
-  p {
+  div p {
     text-align: center;
     font-weight: 500;
     padding: 0 2em;
@@ -34,21 +37,21 @@
     font-size: 1.5em;
     font-weight: bolder;
     text-transform: uppercase;
-    color: #000;
-    border-bottom: 2px solid #000;
+    color: $primary-color;
+    border-bottom: 2px solid $primary-color;
   }
 
   .btn-outline {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 0.8em;
-    color: #000;
+    color: $primary-color;
     padding: 0.5em 1.9em;
     border-radius: 2px;
-    border: 2px solid #000;
+    border: 2px solid $primary-color;
 
     &:hover {
-      color: #000;
+      color: $primary-color;
     }
   }
 }

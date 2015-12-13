@@ -35,16 +35,16 @@
     .btn-outline {
       text-transform: uppercase;
       font-weight: bold;
-      color: #000;
+      color: $primary-color;
       padding: 0.5em 3.5em;
       border-radius: 2px;
-      border: 2px solid #000;
+      border: 2px solid $primary-color;
 
       &:hover {
-        color: #000;
+        color: $primary-color;
       }
     }
-    
+
     .down-arrow {
       margin-top: 6em;
       font-size: 1.5em;

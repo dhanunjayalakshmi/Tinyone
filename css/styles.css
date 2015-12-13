@@ -1,5 +1,6 @@
 body {
-  font-family: 'Source Sans Pro', sans-serif; }
+  font-family: 'Source Sans Pro', sans-serif;
+  overflow-x: hidden; }
 
 h3 {
   text-align: center;
@@ -9,7 +10,7 @@ h3 {
 p.description {
   text-align: center;
   font-weight: 600;
-  padding: 0 17em;
+  padding: 0 15em;
   margin-bottom: 3em; }
 
 #landing {
@@ -48,18 +49,21 @@ p.description {
     padding-bottom: 1.8em; }
 
 #features .feature-list {
-  padding: 0 6em; }
-  #features .feature-list.second {
-    margin-top: 2em; }
+  padding: 0 0 2em 6em; }
 #features .feature-icon {
   font-size: 2em;
-  text-align: right;
-  margin-right: 0;
-  padding-right: 0; }
-#features h5 {
-  font-weight: bold;
   text-align: left; }
+#features .feature-desc {
+  margin-left: 3em;
+  position: relative;
+  top: -35px; }
+  #features .feature-desc h5 {
+    display: inline;
+    font-weight: bold;
+    text-align: left; }
 
+#pricing .price {
+  padding-left: 5em; }
 #pricing .price-icon {
   text-align: center;
   font-size: 2em;
@@ -78,7 +82,7 @@ p.description {
 #pricing h5 {
   text-align: center;
   font-weight: bolder; }
-#pricing p {
+#pricing div p {
   text-align: center;
   font-weight: 500;
   padding: 0 2em;

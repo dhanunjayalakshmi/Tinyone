@@ -1,21 +1,21 @@
 #features {
 
   .feature-list {
-    padding: 0 6em;
-
-    &.second {
-      margin-top: 2em;
-    }
+    padding: 0 0 2em 6em;
   }
 
   .feature-icon {
     font-size: 2em;
-    text-align: right;
-    margin-right: 0;
-    padding-right: 0;
+    text-align: left;
   }
+  .feature-desc {
+    margin-left: 3em;
+    position: relative;
+    top: -35px;
   h5 {
+    display: inline;
     font-weight: bold;
     text-align: left;
+    }
   }
 }
