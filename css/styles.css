@@ -105,4 +105,12 @@ p.description {
   #pricing .btn-outline:hover {
     color: #000; }
 
+#work .works {
+  padding-left: 4em; }
+#work h5 {
+  font-weight: bold;
+  text-align: center; }
+#work p {
+  text-align: center; }
+
 /*# sourceMappingURL=styles.css.map */
