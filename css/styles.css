@@ -1,6 +1,17 @@
 body {
   font-family: 'Source Sans Pro', sans-serif; }
 
+h3 {
+  text-align: center;
+  font-weight: bolder;
+  padding-top: 3em; }
+
+p.description {
+  text-align: center;
+  font-weight: 600;
+  padding: 0 17em;
+  margin-bottom: 3em; }
+
 #landing {
   background-color: #FCDB00;
   text-align: center; }
@@ -36,24 +47,58 @@ body {
     font-size: 1.5em;
     padding-bottom: 1.8em; }
 
-#features h3 {
-  text-align: center;
-  font-weight: bolder;
-  padding-top: 3em; }
-#features p.description {
-  text-align: center;
-  font-weight: 600;
-  padding: 0 17em;
-  margin-bottom: 3em; }
 #features .feature-list {
   padding: 0 6em; }
   #features .feature-list.second {
     margin-top: 2em; }
 #features .feature-icon {
   font-size: 2em;
-  text-align: right; }
+  text-align: right;
+  margin-right: 0;
+  padding-right: 0; }
 #features h5 {
   font-weight: bold;
   text-align: left; }
+
+#pricing .price-icon {
+  text-align: center;
+  font-size: 2em;
+  border-radius: 50%;
+  padding: 0.5em; }
+  #pricing .price-icon.price-tablet {
+    padding: 0.5em 0.7em;
+    background: rgba(0, 0, 0, 0.2);
+    color: #000; }
+  #pricing .price-icon.price-laptop {
+    background: black;
+    color: #fff; }
+  #pricing .price-icon.price-desktop {
+    background: rgba(0, 0, 0, 0.2);
+    color: #000; }
+#pricing h5 {
+  text-align: center;
+  font-weight: bolder; }
+#pricing p {
+  text-align: center;
+  font-weight: 500;
+  padding: 0 2em;
+  margin-bottom: 2em; }
+#pricing .subscription {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: #000;
+  border-bottom: 2px solid #000; }
+#pricing .btn-outline {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.8em;
+  color: #000;
+  padding: 0.5em 1.9em;
+  border-radius: 2px;
+  border: 2px solid #000; }
+  #pricing .btn-outline:hover {
+    color: #000; }
 
 /*# sourceMappingURL=styles.css.map */
