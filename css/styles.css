@@ -8,22 +8,25 @@ body {
     padding-top: 3em; }
   #landing i.globe {
     font-size: 1.5em; }
+    #landing i.globe, #landing i.globe span {
+      font-size: 1em;
+      font-weight: bold; }
   #landing i.social-network {
     margin-right: 0.6em; }
   #landing span {
     font-weight: bold; }
   #landing h2 {
     margin-top: 5em;
-    font-weight: bold; }
+    font-weight: bolder; }
   #landing p {
-    font-weight: bold;
+    font-weight: 600;
     padding: 0 3em;
     margin-bottom: 2em; }
   #landing .btn-outline {
     text-transform: uppercase;
     font-weight: bold;
     color: #000;
-    padding: 0.5em 3em;
+    padding: 0.5em 3.5em;
     border-radius: 2px;
     border: 2px solid #000; }
     #landing .btn-outline:hover {
@@ -32,5 +35,25 @@ body {
     margin-top: 6em;
     font-size: 1.5em;
     padding-bottom: 1.8em; }
+
+#features h3 {
+  text-align: center;
+  font-weight: bolder;
+  padding-top: 3em; }
+#features p.description {
+  text-align: center;
+  font-weight: 600;
+  padding: 0 17em;
+  margin-bottom: 3em; }
+#features .feature-list {
+  padding: 0 6em; }
+  #features .feature-list.second {
+    margin-top: 2em; }
+#features .feature-icon {
+  font-size: 2em;
+  text-align: right; }
+#features h5 {
+  font-weight: bold;
+  text-align: left; }
 
 /*# sourceMappingURL=styles.css.map */

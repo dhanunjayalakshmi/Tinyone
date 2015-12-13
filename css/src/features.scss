@@ -1,0 +1,29 @@
+#features {
+  h3 {
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 3em;
+  }
+  p.description {
+    text-align: center;
+    font-weight: 600;
+    padding: 0 17em;
+    margin-bottom: 3em;
+  }
+  .feature-list {
+    padding: 0 6em;
+
+    &.second {
+      margin-top: 2em;
+    }
+  }
+
+  .feature-icon {
+    font-size: 2em;
+    text-align: right;
+  }
+  h5 {
+    font-weight: bold;
+    text-align: left;
+  }
+}
