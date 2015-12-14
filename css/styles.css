@@ -107,8 +107,11 @@ p.description {
 
 #work .works {
   padding-left: 4em; }
+  #work .works .first {
+    padding: 0 7em 0 5em; }
   #work .works .second {
-    margin-top: 2em; }
+    margin-top: 2em;
+    padding: 0 7em 0 5em; }
   #work .works h5 {
     font-weight: bold;
     text-align: center; }
@@ -126,16 +129,47 @@ p.description {
     padding: -1.5em -1.5em; }
   #team h5 {
     margin-top: 2em;
+    font-size: 1.1em;
     font-weight: bolder;
     text-align: center; }
-  #team .image p.designation {
+  #team .image .image2 {
+    padding: 0 2em; }
+  #team .image .designation {
     text-align: center;
     font-size: 0.9em;
     margin-top: -1em; }
-  #team .image p.desc {
+  #team .image .desc {
     text-align: center;
     font-size: 0.9em;
     font-weight: 600;
     margin-top: 1.5em; }
+  #team .image i {
+    padding-right: 0.8em; }
+
+#testimonials {
+  padding-top: 3em; }
+  #testimonials .stats .icon {
+    font-size: 4em; }
+  #testimonials .stats h4 {
+    font-weight: bold;
+    font-size: 1.7em; }
+  #testimonials .stats p {
+    margin-top: -1em; }
+  #testimonials .test {
+    margin-top: 4em;
+    padding: 0 2em; }
+    #testimonials .test .image {
+      padding: 0 8em; }
+      #testimonials .test .image img {
+        position: relative;
+        right: -27em;
+        border-radius: 50%; }
+    #testimonials .test h4 {
+      font-weight: bold; }
+    #testimonials .test .test-desc {
+      text-align: center; }
+    #testimonials .test .i-right {
+      position: relative;
+      bottom: -3em; }
 
 /*# sourceMappingURL=styles.css.map */

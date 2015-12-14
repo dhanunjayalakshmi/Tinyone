@@ -9,20 +9,27 @@
     }
   h5 {
     margin-top: 2em;
+    font-size: 1.1em;
     font-weight: bolder;
     text-align: center;
     }
     .image {
-    p.designation {
+      .image2 {
+          padding : 0 2em;
+      }
+    .designation {
       text-align: center;
       font-size: 0.9em;
       margin-top: -1em;
     }
-    p.desc {
+    .desc {
       text-align: center;
       font-size: 0.9em;
       font-weight: 600;
       margin-top: 1.5em;
+    }
+    i {
+      padding-right: 0.8em;
     }
     }
 }

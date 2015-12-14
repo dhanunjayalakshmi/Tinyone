@@ -1,0 +1,45 @@
+#testimonials {
+  padding-top : 3em;
+
+  .stats {
+    .icon {
+      font-size: 4em;
+    }
+
+    h4 {
+      font-weight: bold;
+      font-size: 1.7em;
+    }
+
+    p {
+      margin-top: -1em;
+    }
+  }
+
+  .test {
+    margin-top: 4em;
+    padding: 0 2em;
+  .image {
+    padding: 0 8em;
+
+    img {
+      position: relative;
+      right: -27em;
+      border-radius: 50%;
+    }
+  }
+    h4 {
+      font-weight: bold;
+    }
+
+    .i-left {
+    }
+    .test-desc {
+      text-align: center;
+    }
+    .i-right {
+      position: relative;
+      bottom: -3em;
+    }
+}
+}

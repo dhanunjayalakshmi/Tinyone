@@ -1,9 +1,15 @@
 #work {
   .works {
     padding-left: 4em;
+    .first {
+      padding: 0 7em 0 5em;
+    }
     .second {
       margin-top: 2em;
+      padding: 0 7em 0 5em;
     }
+
+
   h5 {
     font-weight: bold;
     text-align: center;
