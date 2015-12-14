@@ -167,9 +167,43 @@ p.description {
     #testimonials .test h4 {
       font-weight: bold; }
     #testimonials .test .test-desc {
-      text-align: center; }
+      text-align: center;
+      font-size: 1.2em; }
     #testimonials .test .i-right {
       position: relative;
-      bottom: -3em; }
+      bottom: -5em; }
+
+#contact .contact-details i {
+  font-size: 2em; }
+#contact .contact-details h4 {
+  font-weight: 600;
+  font-size: 1.5em; }
+#contact .contact-details p {
+  margin-top: -0.8em; }
+#contact .feedback {
+  margin-top: 2em; }
+  #contact .feedback .text-input {
+    height: 50px;
+    width: 400px;
+    border-radius: 1.5px;
+    border: 2px solid #000; }
+    #contact .feedback .text-input.hover {
+      border-color: #000; }
+  #contact .feedback .text-mesg {
+    width: 400px;
+    border-radius: 1.5px;
+    border: 2px solid #000; }
+    #contact .feedback .text-mesg.hover {
+      border-color: #000; }
+  #contact .feedback .btn-solid {
+    background-color: #000;
+    color: #fff;
+    border-radius: 1.5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 0.8em 3em;
+    margin: 0 8em; }
+    #contact .feedback .btn-solid:hover {
+      color: #fff; }
 
 /*# sourceMappingURL=styles.css.map */
