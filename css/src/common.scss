@@ -3,7 +3,8 @@ body {
   overflow-x: hidden;
 }
 
-h3 {
+h2 {
+  font-size: 2em;
   text-align: center;
   font-weight: bolder;
   padding-top: 3em;
@@ -13,4 +14,6 @@ p.description {
   font-weight: 600;
   padding: 0 15em;
   margin-bottom: 3em;
+  font-size: 1.2em;
+  color: $secondary-pg-color;
 }

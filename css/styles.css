@@ -2,7 +2,8 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   overflow-x: hidden; }
 
-h3 {
+h2 {
+  font-size: 2em;
   text-align: center;
   font-weight: bolder;
   padding-top: 3em; }
@@ -11,99 +12,117 @@ p.description {
   text-align: center;
   font-weight: 600;
   padding: 0 15em;
-  margin-bottom: 3em; }
+  margin-bottom: 3em;
+  font-size: 1.2em;
+  color: #939393; }
 
 #landing {
   background-color: #FCDB00;
   text-align: center; }
-  #landing div.initial {
-    padding-top: 3em; }
-  #landing i.globe {
-    font-size: 1.5em; }
-    #landing i.globe, #landing i.globe span {
-      font-size: 1em;
-      font-weight: bold; }
-  #landing i.social-network {
-    margin-right: 0.6em; }
-  #landing span {
-    font-weight: bold; }
-  #landing h2 {
+  #landing .initial {
+    padding-top: 4em; }
+    #landing .initial .globe {
+      font-size: 3em;
+      margin-top: -1em; }
+    #landing .initial span {
+      font-size: 1.8em;
+      font-weight: bold;
+      padding-left: 0.2em;
+      position: relative;
+      top: -0.2em; }
+    #landing .initial .menu {
+      font-size: 1.4em; }
+    #landing .initial .social-network {
+      margin-right: 0.6em;
+      font-size: 1.4em; }
+  #landing h1 {
+    font-size: 3em;
     margin-top: 5em;
-    font-weight: bolder; }
+    font-weight: bold; }
   #landing p {
     font-weight: 600;
-    padding: 0 3em;
-    margin-bottom: 2em; }
+    font-size: 1.2em;
+    padding: 0 6em;
+    margin-bottom: 2em;
+    color: #5a4f0f; }
   #landing .btn-outline {
+    font-size: 1.5em;
     text-transform: uppercase;
     font-weight: bold;
     color: #000;
-    padding: 0.5em 3.5em;
+    padding: 0.5em 3.3em;
     border-radius: 2px;
     border: 2px solid #000; }
     #landing .btn-outline:hover {
       color: #000; }
   #landing .down-arrow {
     margin-top: 6em;
-    font-size: 1.5em;
+    font-size: 2em;
     padding-bottom: 1.8em; }
 
 #features .feature-list {
   padding: 0 0 2em 6em; }
-#features .feature-icon {
-  font-size: 2em;
-  text-align: left; }
-#features .feature-desc {
-  margin-left: 3em;
-  position: relative;
-  top: -35px; }
-  #features .feature-desc h5 {
-    display: inline;
-    font-weight: bold;
+  #features .feature-list .feature-icon {
+    font-size: 3em;
     text-align: left; }
+  #features .feature-list .feature-desc {
+    margin-left: 4em;
+    position: relative;
+    top: -50px; }
+    #features .feature-list .feature-desc h4 {
+      display: inline;
+      font-weight: bold;
+      text-align: left; }
+    #features .feature-list .feature-desc p {
+      padding-top: 0.8em;
+      padding-right: 1em;
+      color: #939393; }
 
 #pricing .price {
   padding-left: 5em; }
-#pricing .price-icon {
-  text-align: center;
-  font-size: 2em;
-  border-radius: 50%;
-  padding: 0.5em; }
-  #pricing .price-icon.price-tablet {
-    padding: 0.5em 0.7em;
-    background: rgba(0, 0, 0, 0.2);
-    color: #000; }
-  #pricing .price-icon.price-laptop {
-    background: black;
-    color: #fff; }
-  #pricing .price-icon.price-desktop {
-    background: rgba(0, 0, 0, 0.2);
-    color: #000; }
-#pricing h5 {
-  text-align: center;
-  font-weight: bolder; }
-#pricing div p {
-  text-align: center;
-  font-weight: 500;
-  padding: 0 2em;
-  margin-bottom: 2em; }
-#pricing .subscription {
-  text-align: center;
-  font-size: 1.5em;
-  font-weight: bolder;
-  text-transform: uppercase;
-  color: #000;
-  border-bottom: 2px solid #000; }
-#pricing .btn-outline {
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 0.8em;
-  color: #000;
-  padding: 0.5em 1.9em;
-  border-radius: 2px;
-  border: 2px solid #000; }
-  #pricing .btn-outline:hover {
-    color: #000; }
+  #pricing .price .p-col {
+    margin-right: 2.5em; }
+  #pricing .price .price-icon {
+    text-align: center;
+    font-size: 3em;
+    border-radius: 50%;
+    padding: 0.5em; }
+    #pricing .price .price-icon.price-tablet {
+      padding: 0.5em 0.7em;
+      background: rgba(0, 0, 0, 0.2);
+      color: #000; }
+    #pricing .price .price-icon.price-laptop {
+      background: black;
+      color: #fff; }
+    #pricing .price .price-icon.price-desktop {
+      background: rgba(0, 0, 0, 0.2);
+      color: #000; }
+  #pricing .price h4 {
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: bolder; }
+  #pricing .price div p {
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 2em;
+    color: #939393; }
+  #pricing .price .subscription {
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #000;
+    border-bottom: 2px solid #000; }
+  #pricing .price .btn-outline {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1em;
+    color: #000;
+    padding: 0.5em 1.8em;
+    border-radius: 2px;
+    border: 2px solid #000; }
+    #pricing .price .btn-outline:hover {
+      color: #000; }
 
 #work .works {
   padding-left: 4em; }
@@ -112,49 +131,59 @@ p.description {
   #work .works .second {
     margin-top: 2em;
     padding: 0 7em 0 5em; }
-  #work .works h5 {
+  #work .works h4 {
     font-weight: bold;
     text-align: center; }
   #work .works .work-desc p {
+    color: #939393;
     text-align: center;
-    font-size: 0.9em;
-    margin-top: -1em; }
+    font-size: 1em;
+    margin-top: -0.8em; }
 
 #team {
   padding: 2em 5em 0 5em; }
   #team .teams {
     text-align: center; }
-  #team img {
-    border-radius: 50%;
-    padding: -1.5em -1.5em; }
-  #team h5 {
-    margin-top: 2em;
-    font-size: 1.1em;
-    font-weight: bolder;
-    text-align: center; }
-  #team .image .image2 {
-    padding: 0 2em; }
-  #team .image .designation {
-    text-align: center;
-    font-size: 0.9em;
-    margin-top: -1em; }
-  #team .image .desc {
-    text-align: center;
-    font-size: 0.9em;
-    font-weight: 600;
-    margin-top: 1.5em; }
-  #team .image i {
-    padding-right: 0.8em; }
+    #team .teams img {
+      border-radius: 50%;
+      padding: -1.5em -1.5em; }
+    #team .teams h4 {
+      font-size: 1.5em;
+      margin-top: 2em;
+      font-weight: bold;
+      text-align: center; }
+    #team .teams .image {
+      margin-right: 0.5em; }
+      #team .teams .image .image2 {
+        padding: 0 2em; }
+      #team .teams .image .designation {
+        text-align: center;
+        font-size: 1em;
+        margin-top: -0.5em;
+        color: #939393; }
+      #team .teams .image .desc {
+        text-align: center;
+        font-size: 0.9em;
+        font-weight: bold;
+        margin-top: 1.5em;
+        color: #939393; }
+      #team .teams .image i {
+        padding-right: 0.8em; }
 
 #testimonials {
   padding-top: 3em; }
-  #testimonials .stats .icon {
-    font-size: 4em; }
-  #testimonials .stats h4 {
-    font-weight: bold;
-    font-size: 1.7em; }
-  #testimonials .stats p {
-    margin-top: -1em; }
+  #testimonials .stats {
+    margin-left: 2em; }
+    #testimonials .stats .icon {
+      font-size: 3.5em; }
+    #testimonials .stats h4 {
+      font-weight: bold;
+      font-size: 1.7em; }
+    #testimonials .stats p {
+      margin-top: -1em;
+      color: #939393; }
+  #testimonials .stats2 {
+    margin-left: 5em; }
   #testimonials .test {
     margin-top: 4em;
     padding: 0 2em; }
@@ -165,13 +194,24 @@ p.description {
         right: -27em;
         border-radius: 50%; }
     #testimonials .test h4 {
+      font-size: 1.5em;
       font-weight: bold; }
+    #testimonials .test p {
+      color: #939393;
+      font-weight: 400; }
+    #testimonials .test .i-left {
+      font-size: 1.3em;
+      color: #939393; }
     #testimonials .test .test-desc {
       text-align: center;
-      font-size: 1.2em; }
+      font-size: 1.2em;
+      color: #939393;
+      font-weight: bold; }
     #testimonials .test .i-right {
       position: relative;
-      bottom: -5em; }
+      bottom: -4.3em;
+      color: #939393;
+      font-size: 1.3em; }
 
 #contact .contact-details i {
   font-size: 2em; }
@@ -179,18 +219,21 @@ p.description {
   font-weight: 600;
   font-size: 1.5em; }
 #contact .contact-details p {
-  margin-top: -0.8em; }
+  margin-top: -0.8em;
+  color: #939393; }
 #contact .feedback {
   margin-top: 2em; }
   #contact .feedback .text-input {
     height: 50px;
     width: 400px;
+    color: #939393;
     border-radius: 1.5px;
     border: 2px solid #000; }
     #contact .feedback .text-input.hover {
       border-color: #000; }
   #contact .feedback .text-mesg {
     width: 400px;
+    color: #939393;
     border-radius: 1.5px;
     border: 2px solid #000; }
     #contact .feedback .text-mesg.hover {
@@ -218,6 +261,7 @@ p.description {
     #newsletter .text .text-input {
       height: 3.4em;
       width: 550px;
+      color: #939393;
       border-radius: 2px;
       display: inline-block; }
     #newsletter .text a {
@@ -229,12 +273,13 @@ p.description {
       background-color: #fff;
       color: #000;
       padding: 0.92em 3em;
-      margin-top: -0.1em; }
+      margin-top: -0.1em;
+      margin-left: 0.1em; }
   #newsletter .links {
     padding-bottom: 7em;
     margin-top: 6em; }
     #newsletter .links p {
-      color: #fff;
+      color: #939393;
       margin-top: -0.9em;
       padding: 0 1em; }
 

@@ -2,34 +2,37 @@
   padding: 2em 5em 0 5em;
   .teams {
     text-align: center;
-  }
     img {
       border-radius: 50%;
       padding : -1.5em -1.5em;
     }
-  h5 {
+  h4 {
+    font-size: 1.5em;
     margin-top: 2em;
-    font-size: 1.1em;
-    font-weight: bolder;
+    font-weight: bold;
     text-align: center;
     }
     .image {
+      margin-right: 0.5em;
       .image2 {
           padding : 0 2em;
       }
     .designation {
       text-align: center;
-      font-size: 0.9em;
-      margin-top: -1em;
+      font-size: 1em;
+      margin-top: -0.5em;
+      color: $secondary-pg-color;
     }
     .desc {
       text-align: center;
       font-size: 0.9em;
-      font-weight: 600;
+      font-weight: bold;
       margin-top: 1.5em;
+      color: $secondary-pg-color;
     }
     i {
       padding-right: 0.8em;
     }
     }
+  }
 }

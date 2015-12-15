@@ -2,20 +2,25 @@
 
   .feature-list {
     padding: 0 0 2em 6em;
-  }
 
   .feature-icon {
-    font-size: 2em;
+    font-size: 3em;
     text-align: left;
   }
   .feature-desc {
-    margin-left: 3em;
+    margin-left: 4em;
     position: relative;
-    top: -35px;
-  h5 {
+    top: -50px;
+  h4 {
     display: inline;
     font-weight: bold;
     text-align: left;
     }
+    p{
+      padding-top: 0.8em;
+      padding-right: 1em;
+      color: $secondary-pg-color;
+    }
+  }
   }
 }

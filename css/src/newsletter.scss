@@ -13,6 +13,7 @@
   .text-input {
     height : 3.4em;
     width : 550px;
+    color: $secondary-pg-color;
     border-radius: 2px;
     display: inline-block;
   }
@@ -27,6 +28,7 @@
     color: $primary-color;
     padding: 0.92em 3em;
     margin-top: -0.1em;
+    margin-left: 0.1em;
   }
 }
 
@@ -34,7 +36,7 @@
   padding-bottom: 7em;
   margin-top: 6em;
   p {
-    color: $secondary-color;
+    color: $secondary-pg-color;
     margin-top: -0.9em;
     padding: 0 1em;
   }

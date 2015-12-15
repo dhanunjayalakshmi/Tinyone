@@ -1,10 +1,12 @@
 #pricing {
   .price {
     padding-left: 5em;
-  }
+    .p-col {
+      margin-right: 2.5em;
+    }
   .price-icon {
     text-align: center;
-    font-size: 2em;
+    font-size: 3em;
     border-radius: 50%;
     padding: 0.5em;
 
@@ -22,19 +24,20 @@
       color:$primary-color;
     }
   }
-  h5 {
+  h4 {
+    font-size: 1.5em;
     text-align: center;
     font-weight: bolder;
   }
   div p {
     text-align: center;
-    font-weight: 500;
-    padding: 0 2em;
+    font-weight: 400;
     margin-bottom: 2em;
+    color: $secondary-pg-color;
   }
   .subscription {
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.8em;
     font-weight: bolder;
     text-transform: uppercase;
     color: $primary-color;
@@ -44,14 +47,15 @@
   .btn-outline {
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 0.8em;
+    font-size: 1em;
     color: $primary-color;
-    padding: 0.5em 1.9em;
+    padding: 0.5em 1.8em;
     border-radius: 2px;
     border: 2px solid $primary-color;
 
     &:hover {
       color: $primary-color;
     }
+  }
   }
 }
