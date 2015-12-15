@@ -24,6 +24,20 @@
   .test {
     margin-top: 4em;
     padding: 0 2em;
+    .carousel-indicators {
+      bottom: -4em;
+    }
+    .carousel-indicators li{
+      border: 1px solid $primary-color;
+    }
+    .carousel-indicators .active{
+      background-color: $primary-color;
+    }
+    .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+        width: 70%;
+        margin: auto;
+    }
   .image {
     padding: 0 8em;
 

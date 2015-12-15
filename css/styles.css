@@ -187,6 +187,16 @@ p.description {
   #testimonials .test {
     margin-top: 4em;
     padding: 0 2em; }
+    #testimonials .test .carousel-indicators {
+      bottom: -4em; }
+    #testimonials .test .carousel-indicators li {
+      border: 1px solid #000; }
+    #testimonials .test .carousel-indicators .active {
+      background-color: #000; }
+    #testimonials .test .carousel-inner > .item > img,
+    #testimonials .test .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto; }
     #testimonials .test .image {
       padding: 0 8em; }
       #testimonials .test .image img {

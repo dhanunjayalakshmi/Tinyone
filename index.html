@@ -9,6 +9,8 @@
     <link
     href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,900italic,200italic,300,300italic,400italic,600,600italic,700,700italic,900' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   </head>
   <body>
     <section id="landing">
@@ -235,7 +237,7 @@
               <div class="image2">
                 <img src="images/smiley2.jpg" alt="smiley2" class=img-responsive>
               </div>
-              <h4>Preethi Sing</h4>
+              <h4>Preeti Singh</h4>
               <p class="designation">UI Designer</p>
               <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
               <div class="sharing">
@@ -274,7 +276,7 @@
               <div class="image2">
                 <img src="images/face2.jpg" alt="face2" class=img-responsive>
               </div>
-              <h4>Aaqib</h4>
+              <h4>Aaqib Parvez</h4>
               <p class="designation">UI Designer</p>
               <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
               <div class="sharing">
@@ -322,25 +324,110 @@
           </div>
         </div>
         <div class="container text-center test">
-          <div class="image text-center">
-            <img src="images/smiley2.jpg" alt="smiley2" class=img-responsive>
-          </div>
-          <h4>Preethi Sing</h4>
-          <p>From Wordpress</p>
-            <div class="row test-grid container">
-              <div class="col-sm-3"></div>
-              <div class="col-sm-1 text-center">
-                <i class="fa fa-quote-left i-left"></i>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+              </ol>
+
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                  <div class="image text-center">
+                    <img src="images/smiley2.jpg" alt="smiley2" class=img-responsive>
+                  </div>
+                  <h4>Preeti Singh</h4>
+                  <p>From Wordpress</p>
+                    <div class="row test-grid container">
+                      <div class="col-sm-3"></div>
+                      <div class="col-sm-1 text-center">
+                        <i class="fa fa-quote-left i-left"></i>
+                      </div>
+                      <div class="col-sm-4">
+                        <span class="test-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                          ut aliquip ex ea commodo consequat.</span>
+                      </div>
+                      <div class="col-sm-1 text-center">
+                        <i class="fa fa-quote-right i-right"></i>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                  <div class="image text-center">
+                    <img src="images/angry-face.jpg" alt="angry-face" class=img-responsive>
+                  </div>
+                  <h4>John Doe</h4>
+                  <p>From Wordpress</p>
+                    <div class="row test-grid container">
+                      <div class="col-sm-3"></div>
+                      <div class="col-sm-1 text-center">
+                        <i class="fa fa-quote-left i-left"></i>
+                      </div>
+                      <div class="col-sm-4">
+                        <span class="test-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                          ut aliquip ex ea commodo consequat.</span>
+                      </div>
+                      <div class="col-sm-1 text-center">
+                        <i class="fa fa-quote-right i-right"></i>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                  <div class="image text-center">
+                    <img src="images/smiley1.jpg" alt="smiley1" class=img-responsive>
+                  </div>
+                  <h4>Raj Kumar</h4>
+                  <p>From Wordpress</p>
+                    <div class="row test-grid container">
+                      <div class="col-sm-3"></div>
+                      <div class="col-sm-1 text-center">
+                        <i class="fa fa-quote-left i-left"></i>
+                      </div>
+                      <div class="col-sm-4">
+                        <span class="test-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                          ut aliquip ex ea commodo consequat.</span>
+                      </div>
+                      <div class="col-sm-1 text-center">
+                        <i class="fa fa-quote-right i-right"></i>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                  <div class="image text-center">
+                    <img src="images/face2.jpg" alt="face2" class=img-responsive>
+                  </div>
+                  <h4>Aaqib Parvez</h4>
+                  <p>From Wordpress</p>
+                    <div class="row test-grid container">
+                      <div class="col-sm-3"></div>
+                      <div class="col-sm-1 text-center">
+                        <i class="fa fa-quote-left i-left"></i>
+                      </div>
+                      <div class="col-sm-4">
+                        <span class="test-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                          ut aliquip ex ea commodo consequat.</span>
+                      </div>
+                      <div class="col-sm-1 text-center">
+                        <i class="fa fa-quote-right i-right"></i>
+                      </div>
+                    </div>
+                </div>
               </div>
-              <div class="col-sm-4">
-                <span class="test-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-                  ut aliquip ex ea commodo consequat.</span>
-              </div>
-              <div class="col-sm-1 text-center">
-                <i class="fa fa-quote-right i-right"></i>
-              </div>
+
+              <!-- Left and right controls -->
+
             </div>
+          </div>
         </div>
     </section>
     <section id="contact">
