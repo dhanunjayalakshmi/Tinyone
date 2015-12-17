@@ -3,7 +3,7 @@ body {
   overflow-x: hidden; }
 
 h2 {
-  font-size: 2em;
+  font-size: 2.5em;
   text-align: center;
   font-weight: bolder;
   padding-top: 3em; }
@@ -11,9 +11,9 @@ h2 {
 p.description {
   text-align: center;
   font-weight: 600;
-  padding: 0 15em;
+  padding: 0 13em;
   margin-bottom: 3em;
-  font-size: 1.2em;
+  font-size: 1.5em;
   color: #939393; }
 
 #landing {
@@ -22,27 +22,26 @@ p.description {
   #landing .initial {
     padding-top: 4em; }
     #landing .initial .globe {
-      font-size: 3em;
+      font-size: 3.5em;
       margin-top: -1em; }
     #landing .initial span {
-      font-size: 1.8em;
+      font-size: 2em;
       font-weight: bold;
       padding-left: 0.2em;
       position: relative;
       top: -0.2em; }
     #landing .initial .menu {
-      font-size: 1.4em; }
+      font-size: 1.5em; }
     #landing .initial .social-network {
       margin-right: 0.6em;
-      font-size: 1.4em; }
+      font-size: 1.5em; }
   #landing h1 {
-    font-size: 3em;
+    font-size: 3.5em;
     margin-top: 5em;
     font-weight: bold; }
   #landing p {
     font-weight: 600;
-    font-size: 1.2em;
-    padding: 0 6em;
+    font-size: 1.4em;
     margin-bottom: 2em;
     color: #5a4f0f; }
   #landing .btn-outline {
@@ -50,32 +49,29 @@ p.description {
     text-transform: uppercase;
     font-weight: bold;
     color: #000;
-    padding: 0.5em 3.3em;
+    padding: 0.7em 3.5em;
     border-radius: 2px;
     border: 2px solid #000; }
     #landing .btn-outline:hover {
       color: #000; }
   #landing .down-arrow {
     margin-top: 6em;
-    font-size: 2em;
+    font-size: 2.5em;
     padding-bottom: 1.8em; }
 
 #features .feature-list {
-  padding: 0 0 2em 6em; }
+  padding-left: 2em; }
   #features .feature-list .feature-icon {
-    font-size: 3em;
-    text-align: left; }
+    font-size: 3.5em;
+    float: left; }
   #features .feature-list .feature-desc {
-    margin-left: 4em;
-    position: relative;
-    top: -50px; }
+    margin-left: 5em; }
     #features .feature-list .feature-desc h4 {
-      display: inline;
       font-weight: bold;
+      font-size: 1.4em;
       text-align: left; }
     #features .feature-list .feature-desc p {
-      padding-top: 0.8em;
-      padding-right: 1em;
+      text-align: left;
       color: #939393; }
 
 #pricing .price {

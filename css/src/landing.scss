@@ -1,40 +1,39 @@
 #landing {
-    background-color: #FCDB00;
+    background-color: $primary-bg-color;
     text-align: center;
 
     .initial {
       padding-top: 4em;
 
     .globe {
-      font-size:3em;
+      font-size:3.5em;
       margin-top: -1em;
     }
       span {
-        font-size: 1.8em;
+        font-size: 2em;
         font-weight: bold;
         padding-left: 0.2em;
         position: relative;
         top: -0.2em;
       }
       .menu {
-        font-size : 1.4em;
+        font-size : 1.5em;
       }
     .social-network {
       margin-right: 0.6em;
-      font-size : 1.4em;
+      font-size : 1.5em;
     }
   }
 
     h1 {
-      font-size: 3em;
+      font-size: 3.5em;
       margin-top: 5em;
       font-weight: bold;
     }
 
     p {
       font-weight: 600;
-      font-size: 1.2em;
-      padding: 0 6em;
+      font-size: 1.4em;
       margin-bottom: 2em;
       color: $primary-pg-color;
     }
@@ -44,7 +43,7 @@
       text-transform: uppercase;
       font-weight: bold;
       color: $primary-color;
-      padding: 0.5em 3.3em;
+      padding: 0.7em 3.5em;
       border-radius: 2px;
       border: 2px solid $primary-color;
 
@@ -55,7 +54,7 @@
 
     .down-arrow {
       margin-top: 6em;
-      font-size: 2em;
+      font-size: 2.5em;
       padding-bottom: 1.8em;
     }
 }

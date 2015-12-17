@@ -1,24 +1,21 @@
 #features {
 
   .feature-list {
-    padding: 0 0 2em 6em;
+    padding-left: 2em;
 
   .feature-icon {
-    font-size: 3em;
-    text-align: left;
+    font-size: 3.5em;
+    float: left;
   }
   .feature-desc {
-    margin-left: 4em;
-    position: relative;
-    top: -50px;
+    margin-left: 5em;
   h4 {
-    display: inline;
-    font-weight: bold;
-    text-align: left;
+      font-weight: bold;
+      font-size: 1.4em;
+      text-align: left;
     }
     p{
-      padding-top: 0.8em;
-      padding-right: 1em;
+      text-align: left;
       color: $secondary-pg-color;
     }
   }
