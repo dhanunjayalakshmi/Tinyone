@@ -2,9 +2,13 @@
   padding: 2em 5em 0 5em;
   .teams {
     text-align: center;
+    .first {
+      margin: 0 2.8em;
+      .image {
+        margin:0 1.2em;
     img {
       border-radius: 50%;
-      padding : -1.5em -1.5em;
+      margin: 0 auto;
     }
   h4 {
     font-size: 1.5em;
@@ -12,11 +16,7 @@
     font-weight: bold;
     text-align: center;
     }
-    .image {
-      margin-right: 0.5em;
-      .image2 {
-          padding : 0 2em;
-      }
+
     .designation {
       text-align: center;
       font-size: 1em;
@@ -27,12 +27,13 @@
       text-align: center;
       font-size: 0.9em;
       font-weight: bold;
-      margin-top: 1.5em;
       color: $secondary-pg-color;
     }
     i {
+      font-size: 1.2em;
       padding-right: 0.8em;
     }
     }
+  }
   }
 }
