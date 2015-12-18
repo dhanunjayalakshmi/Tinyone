@@ -1,12 +1,11 @@
 #pricing {
   .price {
-    padding-left: 5em;
     .p-col {
-      margin-right: 2.5em;
+      margin-left: 3.7em;
     }
   .price-icon {
     text-align: center;
-    font-size: 3em;
+    font-size: 3.5em;
     border-radius: 50%;
     padding: 0.5em;
 
@@ -45,11 +44,13 @@
   }
 
   .btn-outline {
+    text-align: center;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 1em;
     color: $primary-color;
-    padding: 0.5em 1.8em;
+    height: 3em;
+    width: 9em;
     border-radius: 2px;
     border: 2px solid $primary-color;
 
